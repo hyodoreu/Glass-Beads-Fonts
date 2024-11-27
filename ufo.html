@@ -29,7 +29,7 @@
         }
         @font-face {
         font-family: 'ufo';
-        src: url('otf/ufo4.otf') format('opentype');
+        src: url('otf/Ufo4.otf') format('opentype');
         }
         
         body {
@@ -190,7 +190,7 @@
             font-style: normal;
             font-weight: normal;
             margin-bottom: 1vw;
-            margin-top: 2vw;
+            
         }
         .tools button {
             
@@ -259,7 +259,7 @@
         }
 
 
-        .navbar a {        cursor: url('cursor/berry.png'), auto;
+        .navbar a {        cursor: url('cursor/ufo.png'), auto;
 
         display: block;
         text-decoration: none;
@@ -387,6 +387,7 @@
             align-items: center;
             text-align: center;
             width: 90vw;
+            font-family: 'ufo' !important;
             height: calc(90vh - 130px); /* 상단, 하단 여백을 뺀 실제 높이 계산 */
             /* max-height: 80vh; */
             overflow: auto; 
@@ -401,9 +402,12 @@
 
         }
         .fin {
-            margin-top: 1vh;
+            margin-top: 3vh;
             font-size:5vw;
 
+        }
+        .tools{
+            text-align: center;
         }
         }
     </style>
@@ -413,7 +417,7 @@
         <div class="navbar">
             <a href="index.html" class="glassbeadsfonts">Glass Beads Fonts</a>
             <a href="#about" class="about" onclick="toggleContent(event, 'about-content')">About</a>
-            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreÜ</a>
+            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreU</a>
         </div>
     </header>
     <div id="about-content" class="content scrollbar">

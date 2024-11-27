@@ -29,7 +29,7 @@
         }
         @font-face {
         font-family: 'seed';
-        src: url('otf/seed.otf') format('opentype');
+        src: url('otf/Seed.otf') format('opentype');
         }
        
         body {
@@ -189,7 +189,7 @@
             font-style: normal;
             font-weight: normal;
             margin-bottom: 1vw;
-            margin-top: 2vw;
+            
         }
         .tools button {
             
@@ -388,6 +388,8 @@
             height: calc(90vh - 130px); /* 상단, 하단 여백을 뺀 실제 높이 계산 */
             /* max-height: 80vh; */
             overflow: auto; 
+            font-family: 'seed' !important;
+
             border: none; 
             word-break: break-all;
             margin: 0 auto; /* 수평 가운데 정렬 */
@@ -399,9 +401,12 @@
 
         }
         .fin {
-            margin-top: 1vh;
+            margin-top:3vh;
             font-size:5vw;
 
+        }
+        .tools{
+            text-align: center;
         }
         }
     </style>
@@ -411,7 +416,7 @@
         <div class="navbar">
             <a href="index.html" class="glassbeadsfonts">Glass Beads Fonts</a>
             <a href="#about" class="about" onclick="toggleContent(event, 'about-content')">About</a>
-            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreÜ</a>
+            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreU</a>
         </div>
     </header>
     <div id="about-content" class="content scrollbar">

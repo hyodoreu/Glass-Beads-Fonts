@@ -29,7 +29,7 @@
         }
         @font-face {
         font-family: 'christmas';
-        src: url('otf/christmas.otf') format('opentype');
+        src: url('otf/Christmas.otf') format('opentype');
         }
         @font-face {
         font-family: 'christmas-black';
@@ -191,7 +191,7 @@
             font-style: normal;
             font-weight: normal;
             margin-bottom: 1vw;
-            margin-top: 2vw;
+            
         }
         .tools button {
             
@@ -303,6 +303,8 @@
             justify-content: center;
             align-items: center;
             padding:2px 2px;
+            font-family: 'christmas' !important;
+
             box-sizing: border-box;
             z-index: 10; 
             backdrop-filter: blur(10px);
@@ -384,6 +386,8 @@
             border-radius: 20px;
             outline: none; 
             padding: 0;
+            font-family: 'christmas' !important;
+
             font-size: 26vw;
             align-items: center;
             text-align: center;
@@ -402,10 +406,14 @@
 
         }
         .fin {
-            margin-top: 1vh;
+            margin-top: 3vh;
             font-size:5vw;
 
         }
+        .tools{
+            text-align: center;
+        }
+        
         }
     </style>
 </head>
@@ -414,7 +422,7 @@
         <div class="navbar">
             <a href="index.html" class="glassbeadsfonts">Glass Beads Fonts</a>
             <a href="#about" class="about" onclick="toggleContent(event, 'about-content')">About</a>
-            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreÜ</a>
+            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreU</a>
         </div>
     </header>
     <div id="about-content" class="content scrollbar">

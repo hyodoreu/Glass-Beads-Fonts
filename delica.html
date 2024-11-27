@@ -29,7 +29,7 @@
         }
         @font-face {
         font-family: 'delica';
-        src: url('otf/delica.otf') format('opentype');
+        src: url('otf/Delica.otf') format('opentype');
         }
         @font-face {
         font-family: 'christmas-black';
@@ -191,7 +191,7 @@
             font-style: normal;
             font-weight: normal;
             margin-bottom: 1vw;
-            margin-top: 2vw;
+            
         }
         .tools button {
             
@@ -393,6 +393,8 @@
             /* max-height: 80vh; */
             overflow: auto; 
             border: none; 
+            font-family: 'delica' !important;
+
             word-break: break-all;
             margin: 0 auto; /* 수평 가운데 정렬 */
             justify-content: center; /* 수평 가운데 정렬 */
@@ -403,9 +405,12 @@
 
         }
         .fin {
-            margin-top: 1vh;
+            margin-top: 3vh;
             font-size:5vw;
 
+        }
+        .tools{
+            text-align: center;
         }
         }
     </style>
@@ -415,7 +420,7 @@
         <div class="navbar">
             <a href="index.html" class="glassbeadsfonts">Glass Beads Fonts</a>
             <a href="#about" class="about" onclick="toggleContent(event, 'about-content')">About</a>
-            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreÜ</a>
+            <a href="#hyowonkim" class="hyowonkim" onclick="toggleContent(event, 'hyowonkim-content')">HyodoreU</a>
         </div>
     </header>
     <div id="about-content" class="content scrollbar">
